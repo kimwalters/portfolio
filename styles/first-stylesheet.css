@@ -1,0 +1,94 @@
+body {  background-color: #E0C5AF;
+        margin: 0px;
+        padding: 0px; }
+
+p { color: #4C4636; 
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 70%; 
+    font-family: Helvetica, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Sarina', cursive; }
+
+h1 { color: #834C52;
+     font-size: 2rem;
+     padding: 1rem 0rem 0rem 2rem;
+     font-family: 'Sarina', cursive; }
+
+h2 { color: #436D66;
+     font-size: 26px; }
+
+article.about figure { text-align: center;
+                       background-color: hsla(239, 6%, 50%, 0.35); 
+                       padding: 1rem;
+                       width: 30%; 
+                       float: left; }
+
+figcaption { font-size: 1rem; 
+             font-family: 'Permanent Marker', cursive;
+             color: #5F6163; }
+
+section#project { float:left;
+                  padding:1rem;
+                  background-color: #B7ACB5; 
+                  margin-bottom: 2rem; }
+
+article.project { float: left;
+                  padding: 2rem 0rem 0rem 2rem;
+                  width: 30% }
+
+article.project figure img { width: 90%; }
+
+article.about { width: 100%;
+                background-color: #B7ACB5;
+                float: left; 
+                margin: auto; 
+                padding: 2rem;
+                margin: 0rem 0rem 2rem 0rem; }
+
+article.about figure img { width: 90%; }
+
+article ul { color: #63615F;
+             font-size: 16px;
+             line-height: 2em;
+             font-family: Helvetica, Arial, sans-serif;
+             background-color: white; 
+             padding: 1rem 1rem 1rem 1rem;
+             width: 30%; 
+             float: left;
+             list-style: none;}
+
+header { width: 100%; }
+
+nav { background-color: #909090;
+      width: 100%; }
+
+nav a { color: #202020;
+        text-decoration: none; }
+
+nav a:hover { color: #909090;
+        text-decoration: none; }
+
+nav li { list-style: none; 
+         float: left; 
+         padding: 1rem;
+         background-color: #909090; 
+         font-family: sans-serif; }
+
+nav li:hover { list-style: none; 
+               float: left; 
+               padding: 1rem;
+               background-color: #202020; }
+
+/* nav { width: 100%; 
+      background-color: #909090;
+      margin: 0px;
+      float: left; 
+      padding: 0px; } */
+footer { clear:both; }
+
+footer p { font-size: .75rem; 
+           font-family: Georgia; serif;
+           padding: 0rem 3rem 1rem 3em; }
+
+.bullet { padding-right: 1rem; }

@@ -2,23 +2,108 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Kim's Portfolio</title>  
-  <link rel="stylesheet" type="text/css" href="first-stylesheet.css">
-  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kim's Portfolio</title> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <style>
+    .container.marketing {margin-top: 90px; }
+  </style>
 </head>
 <body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Kim Walters</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">Learn More</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
   
-  <header>
-    <h1>About Kim.</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Kim</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="#">Contact Kim</a></li>
-      </ul>
-    </nav>
-  </header>
-  
+  <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/140x140-halloween.jpg" alt="Print Design" style="width: 140px; height: 140px;">
+          <h2>Print Design</h2>
+          <p>I started my professional career working on print ads and newspaper layouts, where I first fell in love with design.</p>
+          <p><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/140x140-soap.jpg" alt="Illustration" style="width: 140px; height: 140px;">
+          <h2>Illustration</h2>
+          <p>Color pencil illustrations combined with digital art have given some of my art work a unique look.</p>
+          <p><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/140x140-website.jpg" alt="Web Design" style="width: 140px; height: 140px;">
+          <h2>Web Design</h2>
+          <p>I have several years experience building out landing pages for car dealerships based out of the US and Australia.</p>
+          <p><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Human Emotions. <span class="text-muted">How do you feel?</span></h2>
+        <p class="lead">I depicted the nine basic human emotions in watercolor pencils through halloweeneque cartoon characters.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="images/400x400-emotions.jpg" alt="human emotion illustration">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="images/400x400-starfish.jpg" alt="Starfish logo design">
+      </div>
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Logos <span class="text-muted">Out of water.</span></h2>
+        <p class="lead">This is a logo that I designed for my own freelance company. I wanted to capture the idea that simplicity can still be interesting and fun. </p>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Newspaper <span class="text-muted">can be colorful too.</span></h2>
+        <p class="lead">This was a front cover design that incorporated crayons spanning the width of the paper, bordering the bottom top fold. It was for the back to school edition.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="images/400x400-newspaper.jpg" alt="Crayons on a newspaper design">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+        <!-- /END THE FEATURETTES -->
+
+      <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2014 Kim Walters. &middot; <a href="#">Contact</a></p>
+    </footer>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

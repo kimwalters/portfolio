@@ -2,6 +2,17 @@ body {  background-color: #B0B0B0;
         margin: 0px;
         padding: 0px; }
 
+.offscreen { position: absolute;
+             left: -10000px;
+             top: auto;
+             width: 1px;
+             height: 1px;
+             overflow: hidden; }
+
+.offscreen:focus { position: static;
+                   width: auto;
+                   height: auto; }
+
 p { color: #4C4636; 
     font-size: 1rem;
     line-height: 1.5rem;
